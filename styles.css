@@ -1,0 +1,222 @@
+
+@import url(variables.css);
+
+body {
+    font-family: 'Gobold Uplow', sans-serif;
+    background-color: #323643;
+}
+
+nav {
+    background-color: #93DEFF;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.iconoJ{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;    
+}
+
+.pieFoto{
+    font-size: 62px;
+    color: #323643;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    color: #323643;
+    font-size: 42px;
+    margin-left: auto;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #323643;
+}
+
+#miNombre{
+    font-size: 94px;
+    color: #93DEFF;
+    margin: 0px;
+}
+
+#miCarrera{
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+}
+
+.presen{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulosPaginas{
+    font-size: 80px;
+    text-align: end;
+    margin-right: 40px;
+    color: #93DEFF;
+}
+
+.sM-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#textoSM{
+    font-size: 22px;
+    line-height: 28px;
+    width: 750px;
+    color: white;
+}
+
+#imagenSm{
+    width: 276px;
+    height: 276px;
+}
+
+#habilidades-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.lista-container{
+    height: 100vh;
+    width: 1027px;
+    font-size: 16pt;
+    color: white;
+    text-align: left;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: outside;
+}
+
+.lista-container li::marker {
+    color: #93DEFF;
+    font-size: xx-large;
+}
+
+#exp-container {
+    text-align: -webkit-center;
+} 
+
+.form-container{
+    background-color: white;
+    width: 700px;
+    height: 350px;
+    border-radius: 80px;
+}
+
+#contacto-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-image{
+    width: 122px;
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    background-color: #323643;
+    font-family: 'Gobold Uplow', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 393px;
+    height: 44px;
+    border: 0px;
+    padding: 0px;
+}
+
+#email {
+    background-color: #323643;
+    font-family: 'Gobold Uplow', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 393px;
+    height: 44px;
+    border: 0px;
+    padding: 0px;
+    padding-left: 5px;
+}
+
+.form-fields{
+    color: #323643;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 40px;
+}
+
+.nombreFor, .correoFor {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+textarea#message {
+    background-color: #323643;
+    color: white;
+    font-family: 'Gobold Uplow', sans-serif;
+    width: 500px;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding-left: 5px;
+    font-size: 20px;
+    resize: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: #93DEFF;
+    color: #323643;
+    width: 160px;
+    height: 44px;
+    margin-left: auto;
+    border-radius: 30px;
+    border: 0px;
+    font-family: 'Gobold Uplow', sans-serif;
+    font-size: 35px;
+
+}
+
+@keyframes mover {
+    0%{
+        transform: translate(100%);
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Llorens</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gobold+Uplow&display=swap">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="imagenNav.png" alt="JDLL" class="iconoJ">
+            <h3 class="pieFoto">JDLL</h3>
+            <ul class="menu">
+                <li><a href="#sobreMi">SOBRE MI</a></li>
+                <li><a href="#hab">HAB.</a></li>
+                <li><a href="#exp">EXP.</a></li>
+                <li><a href="#cont">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="presen">
+            <h1 id="miNombre">JOSÉ DANIEL LLORENS</h1>
+            <h2 id="miCarrera">PROGRAMADOR WEB FRONTEND</h2>
+        </div>
+    <h1 id="sobreMi" class="titulosPaginas">SOBRE MI</h1>
+        <div class="sM-container">
+            <img src="imagenSM.png" alt="foto de perfil" id="imagenSm">
+            <p id="textoSM">"BIENVENIDO MI NOMBRE ES JOSÉ, SOY UN APASIONADO DE LA TECNOLOGÍA,
+                ME ENCANTA PASAR TIEMPO EN LA COMPUTADORA, LEER INFORMACIÓN Y 
+                PROGRAMAR. SOY UNA PERSONA MUY RESPONSABLE, PUNTUAL Y CORDIAL.
+                ESTOY COMPROMETIDO CON MI TRABAJO Y SIEMPRE BUSCO OFRECER SOLUCIONES
+                CREATIVAS A LOS DESAFÍOS QUE SE ME PRESENTAN. 
+                CADA PROYECTO REPRESENTA UN DESAFÍO PARA MÍ Y UNA OPORTUNIDAD DE
+                APRENDER Y CRECER EN MI CARRERA PROFESIONAL. SI BUSCAS UN PROFESIONAL
+                RESPONSABLE, CREATIVO Y APASIONADO POR LA TECNOLOGÍA, HAS LLEGADO AL
+                LUGAR CORRECTO. ¡ESPERO PODER TRABAJAR CONTIGO PRONTO!"</p>
+        </div>
+        <h1 id="hab" class="titulosPaginas">HABILIDADES</h1>
+        <div id="habilidades-container">
+            <img src="html.png" alt="logo html">
+            <img src="css.png" alt="logo css">
+            <img src="js.png" alt="logo js">
+        </div>
+        <h1 id="exp" class="titulosPaginas">EXPERIENCIA</h1>
+        <div id="exp-container">
+            <ul class="lista-container">
+                <li>PROGRAMACIÓN DESDE CERO EN EGG: ESTE CURSO A TRAVÉS DEL PSEUDOCODIGO ME AYUDÓ A ADQUIRIR LAS
+                HABILIDADES FUNDAMENTALES DE LA PROGRAMACIÓN Y A DESARROLLAR MI CAPACIDAD LÓGICA PARA CREAR
+                SOLUCIONES CREATIVAS A LOS PROBLEMAS.</li>
+                <li>#SEPROGRAMAR DE ARGENTINA PROGRAMA: EN ESTE CURSO APRENDÍ A PROGRAMAR WEBS DESDE CERO Y A
+                UTILIZAR HERRAMIENTAS Y TÉCNICAS AVANZADAS PARA LA CREACIÓN DE PROYECTOS.</li>
+                <li>“PRIMEROS PASOS EN FRONTEND” DE ARGENTINA PROGRAMA: EN ESTE CURSO ADQUIRÍ HABILIDADES EN
+                DISEÑO WEB Y EN LA CREACIÓN DE SITIOS WEB ATRACTIVOS E INTERACTIVOS UTILIZANDO TECNOLOGÍAS
+                COMO HTML, CSS Y JAVASCRIPT.</li>
+            </div>
+        </div>
+        <div>
+            <h1 id="cont" class="titulosPaginas">CONTACTO</h1>
+                <div id="contacto-container">
+                    <div class="form-container">
+                        <form action="enviar.php" method="post">
+                            <div class="form-group">
+                                <img src="imagenNav.png" alt="Imagen de formulario" class="form-image">
+                                <div class="form-fields">
+                                    <div class="nombreFor">
+                                        <label for="name">NOMBRE:</label>
+                                        <input type="text" name="name" id="name" required>
+                                    </div>
+                                    <div class="correoFor">
+                                        <label for="email">CORREO:</label>
+                                        <input type="email" name="email" id="email" required>
+                                    </div>
+                                    <div class="mensajeFor">
+                                    <textarea name="message" id="message" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="enviar-container">
+                            <button type="submit class="enviar-btn">ENVIAR</button>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </main>
+    <footer> 
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
